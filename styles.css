@@ -1,0 +1,74 @@
+
+
+body {
+color:rgb(131, 5, 5);
+background: black;
+margin: 2px;
+font-family: "DM Serif Text", serif;
+
+}
+
+header {
+  border-bottom: solid 1px grey;
+  padding: 20px;
+  font-size: 32px;
+  color:rgb(131, 5, 5);
+  
+} 
+
+.chamada {
+  background:darkgray;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.chamada-text {
+margin-right: 20px;
+
+}
+
+h1 {
+  font-size: 30px;
+
+}
+
+p {
+ font-size: 20px;
+
+}
+
+img {
+ height: 200px;
+
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 7px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoria-videos img {
+  opacity: 0.5;
+  height: 200px;
+
+}
+
+.categoria-videos img:hover {
+  opacity: 1;
+  border: 1px solid red;
+
+}
+
+.categoria h2 {
+  color: antiquewhite;
+
+}
